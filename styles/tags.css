@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    .container{
+        min-height:100vh;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .parent{
+        min-height: 100vh;
+        width:85vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .box1{
+        height:13vh;
+        width:100%;
+        position: sticky;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        top:0;
+        background: white;
+    }
+    .in{
+        height:80%;
+        width:100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;  
+    }
+    .box1-1{
+        height:100%;
+        width:25%;
+        padding-right: 30px;
+    }
+    .box1-1 img{
+        height:100%;
+        width:100%;
+        
+    }
+    .box1-2{
+        height:100%;
+        width:60%;
+        display: flex;
+        justify-content:left;
+        align-items: center;
+    }
+    .box1-2 ul{
+        display:flex;
+        justify-content:left;
+        align-items: center;
+        height:80%;
+        width:100%;
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
+    }
+    li{
+        list-style: none;
+        padding-right: 40px;
+    }
+    li a{
+        text-decoration: none;
+    }
+    .box1-2 li a {
+        color:black;
+        transition:color 0.5s;
+    }
+    .box1-3{
+        height:100%;
+        width:15%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .box1-3 button{
+        height:38px;
+        width:60%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(94, 94, 255);
+        color: white;
+        border: none;
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 4px;
+    }
+    .box1-3 button a{
+            text-decoration: none;
+            color: white;
+    }
+    .box1-2 li a:hover {
+        color:rgb(94, 94, 255);
+    }
+    .box2{
+        height: 40vh;
+        width:100%;
+        display:flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .box2 button{
+        height: 33%;
+        width:31%;
+        background-color: #61707f;
+        border-radius: 6px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 30px;
+        border: none;
+    }
+    .box2 button:hover{
+        cursor: pointer;
+        background-color:rgb(94, 94, 255) ;
+    }
+    .box2-button-in{
+        height: 80%;
+        width:auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .box2 button h1{
+        height: 48%;
+        width:100%;
+        font-size: 23px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box2 button p{
+        height: 48%;
+        width:100%;
+        font-size: 16px;
+        display: flex;
+        justify-content:center;
+    }
+    .box2 button a{
+        text-decoration: none;
+        color: white;
+        height:100%;
+        width:100%;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+    }

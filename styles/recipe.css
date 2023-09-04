@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    .container{
+        min-height:100vh;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .parent{
+        min-height: 100vh;
+        width:85vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .box1{
+        height:13vh;
+        width:100%;
+        position: sticky;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        top:0;
+        background: white;
+    }
+    .in{
+        height:80%;
+        width:100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;  
+    }
+    .box1-1{
+        height:100%;
+        width:25%;
+        padding-right: 30px;
+    }
+    .box1-1 img{
+        height:100%;
+        width:100%;
+        
+    }
+    .box1-2{
+        height:100%;
+        width:60%;
+        display: flex;
+        justify-content:left;
+        align-items: center;
+    }
+    .box1-2 ul{
+        display:flex;
+        justify-content:left;
+        align-items: center;
+        height:80%;
+        width:100%;
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
+    }
+    li{
+        list-style: none;
+        padding-right: 40px;
+    }
+    li a{
+        text-decoration: none;
+    }
+    .box1-2 li a {
+        color:black;
+        transition:color 0.5s;
+    }
+    .box1-3{
+        height:100%;
+        width:15%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .box1-3 button{
+        height:38px;
+        width:60%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(94, 94, 255);
+        color: white;
+        border: none;
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 4px;
+        
+    }
+    .box1-3 button a{
+        text-decoration: none;
+        color: white;
+    }
+    .box2{
+        height:80vh;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box2-in{
+        height:90%;
+        width:100%;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+    .box2-1{
+        height:100%;
+        width:20%;
+    }
+    .box2-2{
+        height:100%;
+        width:80%;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        flex-wrap: wrap;
+    }
+    .box2-1 li{
+        list-style: none;
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 5px;
+    }
+    .box2-1 li a {
+        color:rgb(96, 95, 95);
+        transition: color 0.5s;
+    }
+    .box2-1 li a:hover,.box1-2 li a:hover {
+        color:rgb(94, 94, 255);
+    }
+    .box2-1 h2{
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 15px;
+        font-size:32px;
+    }
+    .card{
+        height:68%;
+        width:31%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .cardimg{
+        height:70%;
+        width:100%;
+    }
+    .cardimg img{
+        height:90%;
+        width:100%;
+        border-radius: 7px;
+    }
+    .cardimg:hover{
+        cursor: pointer;
+    }
+    .cardimg img a{
+        text-decoration: none;
+    }
+    .recipe-details{
+        height:30%;
+        width:100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        margin:0;
+    }
+    .name{
+        height:20%;
+        width:100%;
+        font-family: 'Poppins', sans-serif;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .prep{
+        height:10%;
+        width:100%;
+        font-family: 'Poppins', sans-serif;
+        font-size:16px;
+        color:rgb(96, 95, 95);
+    }
+    .footer{
+        height:5vh;
+        width:100%;
+        background-color: black;
+        font-family:'Poppins', sans-serif;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin-top: 150px;
+    }
+    .footer-in{
+        height:95%;
+        width:50%;
+        color: white;
+        font-size:14px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
